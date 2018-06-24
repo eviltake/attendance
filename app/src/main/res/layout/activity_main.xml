@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girl2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.zzu.network.attendance.activity.MainActivity">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:background="@drawable/mainy1"
+        android:elevation="17dp"
+        android:onClick="call"
+        android:shadowColor="#aa5"
+        android:shadowDx="5.0"
+        android:shadowDy="5"
+        android:shadowRadius="1.0"
+        android:text="点名"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:background="@drawable/mainy2"
+        android:elevation="17dp"
+        android:onClick="insert"
+        android:shadowColor="#aa5"
+        android:shadowDx="5.0"
+        android:shadowDy="5"
+        android:shadowRadius="1.0"
+        android:text="添加信息"
+        android:textSize="8pt" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:elevation="17dp"
+        android:background="@drawable/mainy5"
+        android:shadowColor="#aa5"
+        android:shadowDx="5.0"
+        android:shadowDy="5"
+        android:onClick="leava"
+        android:shadowRadius="1.0"
+        android:text="查询请假"
+        android:textSize="8pt"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:elevation="17dp"
+        android:background="@drawable/mainy3"
+        android:onClick="query"
+        android:shadowColor="#aa5"
+        android:shadowDx="5.0"
+        android:shadowDy="5"
+        android:shadowRadius="1.0"
+        android:text="查询未到"
+        android:textSize="8pt"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:background="@drawable/mainy4"
+        android:elevation="17dp"
+        android:onClick="queryall"
+        android:shadowColor="#aa5"
+        android:shadowDx="5.0"
+        android:shadowDy="5"
+        android:shadowRadius="1.0"
+        android:text="查询全部"
+        android:textSize="8pt"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:background="@drawable/mainy4"
+        android:elevation="17dp"
+        android:onClick="onClick"
+        android:shadowColor="#aa5"
+        android:shadowDx="5.0"
+        android:shadowDy="5"
+        android:shadowRadius="1.0"
+        android:text="退出"
+        android:textSize="8pt"/>
+</LinearLayout>

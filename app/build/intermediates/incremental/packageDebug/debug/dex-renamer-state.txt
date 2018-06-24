@@ -1,0 +1,4 @@
+#Sun Jun 24 16:06:27 CST 2018
+base.0=C\:\\Users\\evilpwn\\Desktop\\attendance\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\evilpwn\\Desktop\\attendance\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
